@@ -1,0 +1,37 @@
+@use 'base' as *;
+
+
+
+main{
+    height: 100vh;
+    background: url(/images/millionaire_background.png) no-repeat center/cover;
+    width: 100%; 
+
+    header{
+        background-color: $color-darkBlue;
+        display: flex;
+        justify-content: start;
+        h1{
+           color: $color-white; 
+           padding: 15px;
+           font-family: $font-irish;
+           font-size: 2rem;
+        }    
+    }
+
+    .main-content{
+        h1{
+            font-family: $font-irish;
+            color: $color-white;
+            font-size: 2rem;
+            font-weight: bolder;
+        }
+    }
+
+
+
+    // footer{
+    //     background-color: $color-darkBlue;
+    //     height: 2rem;
+    // }
+}
